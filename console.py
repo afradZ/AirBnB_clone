@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/in/python3
 """Defines the HBNB console."""
 import cmd
 from shlex import split

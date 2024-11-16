@@ -13,8 +13,9 @@ place_amenity = Table("place_amenity", Base.metadata,
                              ForeignKey("amenities.id"),
                              primary_key=True, nullable=False))
 
+
 class Amenity (BaseModel, Base):
-"""Represent an Amenity for a MySQL database.
+    """Represent an Amenity for a MySQL database.
 
     Attributes:
         name: The Amenity name
