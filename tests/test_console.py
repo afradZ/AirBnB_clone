@@ -152,6 +152,6 @@ class TestHBNBCommand(unittest.TestCase):
             self.assertEqual(
                 "** instance id missing **\n", f.getvalue())
 
+
 if __name__ == "__main__":
     unittest.main()
-
